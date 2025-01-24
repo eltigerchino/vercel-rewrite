@@ -14,9 +14,6 @@ export default function middleware(req) {
   url.pathname = "/";
   response.headers.set("x-middleware-rewrite", String(url));
 
-  // "Pass through" the middleware to complete the HTTP request
-  response.headers.set("x-middleware-next", "1");
-
   console.log(response);
 
   return response;
