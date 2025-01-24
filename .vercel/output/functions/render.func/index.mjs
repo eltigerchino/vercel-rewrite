@@ -2,7 +2,7 @@
  * @param {Request} req
  * @returns {Response}
  */
-export default function render(req) {
+export function GET(req) {
   console.log(req.url);
-  return new Response(`URL: ${req.url}`);
+  return new Response(req.url);
 }
