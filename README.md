@@ -1,6 +1,6 @@
 # Vercel rewrite middleware
 
-Reproduction repro for Vercel edge middleware rewrites dropping URL query parameters with no value.
+Reproduction repro for Vercel Edge middleware rewrites dropping URL query parameters with no value.
 
 Instructions:
 
